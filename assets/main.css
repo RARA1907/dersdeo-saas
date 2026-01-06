@@ -77,8 +77,8 @@
   --color-primary-100: #ece8ff;
   --color-primary-200: #dcd4ff;
   --color-primary-300: #c3b1ff;
-  --color-primary-400: #a585ff;
-  --color-primary-500: #864ffe;
+  --color-primary-400: #ffd500;
+  --color-primary-500: #ffd500;
   --color-primary-600: #7c31f6;
   --color-secondary: #0a1a2f;
   --color-accent: #fcfcfc;
@@ -111,14 +111,14 @@
   --color-ns-yellow-light: #fdf7bc;
   --color-ns-ivory: #f4efe7;
   --color-ns-linen: #beab9a;
-  --color-gradient-1: linear-gradient(135deg, #a585ff 0%, #ffc2ad 100%);
+  --color-gradient-1: linear-gradient(135deg, #ffd500 0%, #ffc2ad 100%);
   --color-gradient-5: linear-gradient(165deg, #ffffff80 0.51%, #fff0 64.43%);
   --color-gradient-6: linear-gradient(#ffd500 0%, #ffd500 100%);
   --color-gradient-7: linear-gradient(#fff 0%, #ffd500 100%);
-  --color-gradient-8: linear-gradient(156deg, #fff 32.92%, #a585ff 91%);
-  --color-gradient-9: linear-gradient(156deg, #dfb0ff 32.92%, #fdbedc 91%);
+  --color-gradient-8: linear-gradient(156deg, #fff 32.92%, #ffd500 91%);
+  --color-gradient-9: linear-gradient(156deg, #ffd500 32.92%, #fdbedc 91%);
   --color-gradient-11: linear-gradient(179deg, #fff0 0.68%, #fff 79.47%);
-  --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #ffd500 0%, #864ffe00 100%);
+  --color-gradient-12: radial-gradient(73.01% 80.77% at 19.23% 47.79%, #ffd500 0%, #ffd50000 100%);
   --text-heading-1: 4.25rem;
   --text-heading-1--line-height: 110%;
   --text-heading-2: 3.25rem;
@@ -1523,7 +1523,7 @@ body {
 }
 
 .hero-text-color-1 {
-  background-image: linear-gradient(45deg, #a585ff, #ffc2ad, #a585ff);
+  background-image: linear-gradient(45deg, #ffd500, #ffc2ad, #ffd500);
 }
 
 .hero-text-color-2 {
@@ -11165,9 +11165,9 @@ body {
     background-image: linear-gradient(var(--tw-gradient-stops));
   }
 
-  .bg-linear-\[135deg\,\#ffffff_0\%\,\#a585ff_100\%\] {
-    --tw-gradient-position: 135deg, #fff 0%, #a585ff 100%;
-    background-image: linear-gradient(var(--tw-gradient-stops, 135deg, #fff 0%, #a585ff 100%));
+  .bg-linear-\[135deg\,\#ffffff_0\%\,\#ffd500_100\%\] {
+    --tw-gradient-position: 135deg, #fff 0%, #ffd500 100%;
+    background-image: linear-gradient(var(--tw-gradient-stops, 135deg, #fff 0%, #ffd500 100%));
   }
 
   .bg-linear-\[156deg\,\#83E7EE_2\.92\%\,\#C6F56F_91\%\] {
@@ -11206,13 +11206,13 @@ body {
   }
 
   .bg-linear-\[156deg\,\#FFF_32\.92\%\,\#A585FF_91\%\] {
-    --tw-gradient-position: 156deg, #fff 32.92%, #a585ff 91%;
-    background-image: linear-gradient(var(--tw-gradient-stops, 156deg, #fff 32.92%, #a585ff 91%));
+    --tw-gradient-position: 156deg, #fff 32.92%, #ffd500 91%;
+    background-image: linear-gradient(var(--tw-gradient-stops, 156deg, #fff 32.92%, #ffd500 91%));
   }
 
-  .bg-linear-\[156deg\,\#a585ff_32\.92\%\,\#A585FF_91\%\] {
-    --tw-gradient-position: 156deg, #a585ff 32.92%, #a585ff 91%;
-    background-image: linear-gradient(var(--tw-gradient-stops, 156deg, #a585ff 32.92%, #a585ff 91%));
+  .bg-linear-\[156deg\,\#ffd500_32\.92\%\,\#A585FF_91\%\] {
+    --tw-gradient-position: 156deg, #ffd500 32.92%, #ffd500 91%;
+    background-image: linear-gradient(var(--tw-gradient-stops, 156deg, #ffd500 32.92%, #ffd500 91%));
   }
 
   .bg-linear-\[156deg\,\#ffffff_0\%\,\#83E7EE_100\%\] {
@@ -11226,8 +11226,8 @@ body {
   }
 
   .bg-linear-\[156deg\,_\#FFF_32\.92\%\,_\#A585FF_91\%\] {
-    --tw-gradient-position: 156deg, #fff 32.92%, #a585ff 91%;
-    background-image: linear-gradient(var(--tw-gradient-stops, 156deg, #fff 32.92%, #a585ff 91%));
+    --tw-gradient-position: 156deg, #fff 32.92%, #ffd500 91%;
+    background-image: linear-gradient(var(--tw-gradient-stops, 156deg, #fff 32.92%, #ffd500 91%));
   }
 
   .bg-linear-\[156deg\,_\#FFF_32\.92\%\,_\#C6F56F_91\%\] {
@@ -11241,13 +11241,13 @@ body {
   }
 
   .bg-linear-\[180deg\,\#A585FF\,\#FFC2AD\] {
-    --tw-gradient-position: 180deg, #a585ff, #ffc2ad;
-    background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #a585ff, #ffc2ad));
+    --tw-gradient-position: 180deg, #ffd500, #ffc2ad;
+    background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #ffd500, #ffc2ad));
   }
 
   .bg-linear-\[180deg\,\#A585FF_0\%\,\#FFC2AD_100\%\] {
-    --tw-gradient-position: 180deg, #a585ff 0%, #ffc2ad 100%;
-    background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #a585ff 0%, #ffc2ad 100%));
+    --tw-gradient-position: 180deg, #ffd500 0%, #ffc2ad 100%;
+    background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #ffd500 0%, #ffc2ad 100%));
   }
 
   .bg-linear-\[180deg\,\#DFE4EB_0\%\,\#dfe4eb00_100\%\] {
@@ -11255,9 +11255,9 @@ body {
     background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #dfe4eb 0%, #dfe4eb00 100%));
   }
 
-  .bg-linear-\[180deg\,\#a585ff_0\%\,\#ffc2ac_100\%\] {
-    --tw-gradient-position: 180deg, #a585ff 0%, #ffc2ac 100%;
-    background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #a585ff 0%, #ffc2ac 100%));
+  .bg-linear-\[180deg\,\#ffd500_0\%\,\#ffc2ac_100\%\] {
+    --tw-gradient-position: 180deg, #ffd500 0%, #ffc2ac 100%;
+    background-image: linear-gradient(var(--tw-gradient-stops, 180deg, #ffd500 0%, #ffc2ac 100%));
   }
 
   .bg-linear-\[180deg\,\#ffffff_0\%\,\#ffd500_100\%\] {
@@ -11540,7 +11540,7 @@ body {
   }
 
   .fill-\[\#864FFE\] {
-    fill: #864ffe;
+    fill: #ffd500;
   }
 
   .fill-\[\#09121F\] {
@@ -13795,7 +13795,7 @@ body {
     }
 
     .group-hover\:bg-primary-500\/10:is(:where(.group):hover *) {
-      background-color: #864ffe1a;
+      background-color: #ffd5001a;
     }
 
     @supports (color: color-mix(in lab, red, red)) {
@@ -15362,7 +15362,7 @@ body {
     }
 
     .hover\:shadow-primary-500\/20:hover {
-      --tw-shadow-color: #864ffe33;
+      --tw-shadow-color: #ffd50033;
     }
 
     @supports (color: color-mix(in lab, red, red)) {
@@ -15444,7 +15444,7 @@ body {
   }
 
   .focus\:ring-primary-500\/20:focus {
-    --tw-ring-color: #864ffe33;
+    --tw-ring-color: #ffd50033;
   }
 
   @supports (color: color-mix(in lab, red, red)) {
