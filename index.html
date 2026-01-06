@@ -2501,38 +2501,45 @@ Mobile Menu
           </div>
         </div>
         
-        <div class="space-y-6 mb-10 text-left">
-          <div class="bg-background-12 dark:bg-background-7 p-5 rounded-2xl rounded-tl-none max-w-[85%] border border-stroke-1 dark:border-white/5">
-            <p class="text-secondary dark:text-accent text-lg leading-relaxed">Selam! Ben DersdeoAi. Sınav yolculuğunda sana nasıl yardımcı olabilirim? İstediğin konuyu sorabilirsin.</p>
+        <div class="flex flex-col min-h-[500px]">
+          <div class="space-y-6 mb-auto text-left">
+            <div class="bg-background-12 dark:bg-background-7 p-6 rounded-2xl rounded-tl-none max-w-[85%] border border-stroke-1 dark:border-white/5 shadow-sm">
+              <p class="text-secondary dark:text-accent text-lg leading-relaxed">Selam! Ben DersdeoAi. Sınav yolculuğunda sana nasıl yardımcı olabilirim? İstediğin konuyu sorabilirsin.</p>
+            </div>
           </div>
-        </div>
+          
+          <div class="mt-8 space-y-10">
+            <div class="relative group">
+              <input type="text" placeholder="Dersdeo'ya sor..." class="w-full bg-background-12 dark:bg-background-7 border border-stroke-2 dark:border-white/10 rounded-2xl py-6 px-8 pr-20 focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all text-secondary dark:text-accent text-xl shadow-inner italic">
+              <button class="absolute right-4 top-1/2 -translate-y-1/2 bg-primary hover:scale-105 transition-transform p-4 rounded-xl text-secondary shadow-lg">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-7">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                </svg>
+              </button>
+            </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-10">
-          <button class="text-left px-5 py-3 rounded-xl border border-stroke-2 dark:border-white/10 hover:border-primary transition-all duration-300 text-sm text-secondary/80 dark:text-accent/80 hover:bg-primary/5 group">
-            <span class="block font-medium group-hover:text-primary">9. Sınıf Matematik</span>
-            <span class="text-xs opacity-60">Mantık konusu anlatır mısın?</span>
-          </button>
-          <button class="text-left px-5 py-3 rounded-xl border border-stroke-2 dark:border-white/10 hover:border-primary transition-all duration-300 text-sm text-secondary/80 dark:text-accent/80 hover:bg-primary/5 group">
-            <span class="block font-medium group-hover:text-primary">YKS Tarih</span>
-            <span class="text-xs opacity-60">En çok çıkan konular neler?</span>
-          </button>
-          <button class="text-left px-5 py-3 rounded-xl border border-stroke-2 dark:border-white/10 hover:border-primary transition-all duration-300 text-sm text-secondary/80 dark:text-accent/80 hover:bg-primary/5 group">
-            <span class="block font-medium group-hover:text-primary">KPSS 2026</span>
-            <span class="text-xs opacity-60">Güncel Bilgiler özeti var mı?</span>
-          </button>
-          <button class="text-left px-5 py-3 rounded-xl border border-stroke-2 dark:border-white/10 hover:border-primary transition-all duration-300 text-sm text-secondary/80 dark:text-accent/80 hover:bg-primary/5 group">
-            <span class="block font-medium group-hover:text-primary">11. Sınıf Fizik</span>
-            <span class="text-xs opacity-60">Vektörler soru çözümü</span>
-          </button>
-        </div>
-        
-        <div class="relative group">
-          <input type="text" placeholder="Dersdeo'ya sor..." class="w-full bg-background-12 dark:bg-background-7 border border-stroke-2 dark:border-white/10 rounded-2xl py-5 px-6 pr-20 focus:outline-none focus:ring-2 focus:ring-primary/30 transition-all text-secondary dark:text-accent text-lg">
-          <button class="absolute right-4 top-1/2 -translate-y-1/2 bg-primary hover:scale-105 transition-transform p-3 rounded-xl text-secondary shadow-lg">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
-            </svg>
-          </button>
+            <div class="pt-6 border-t border-stroke-1 dark:border-white/5">
+              <p class="text-secondary/50 dark:text-accent/50 text-xs font-medium uppercase tracking-widest mb-4">Örnek Sorular & Konular</p>
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <button class="text-left p-4 rounded-2xl border border-stroke-2 dark:border-white/10 hover:border-primary hover:bg-primary/5 transition-all duration-300 group">
+                  <span class="block font-bold text-secondary dark:text-accent group-hover:text-primary mb-1">9. Sınıf Matematik</span>
+                  <span class="text-xs text-secondary/60 dark:text-accent/60">Mantık konusu anlatır mısın?</span>
+                </button>
+                <button class="text-left p-4 rounded-2xl border border-stroke-2 dark:border-white/10 hover:border-primary hover:bg-primary/5 transition-all duration-300 group">
+                  <span class="block font-bold text-secondary dark:text-accent group-hover:text-primary mb-1">YKS Tarih</span>
+                  <span class="text-xs text-secondary/60 dark:text-accent/60">En çok çıkan konular neler?</span>
+                </button>
+                <button class="text-left p-4 rounded-2xl border border-stroke-2 dark:border-white/10 hover:border-primary hover:bg-primary/5 transition-all duration-300 group">
+                  <span class="block font-bold text-secondary dark:text-accent group-hover:text-primary mb-1">KPSS 2026</span>
+                  <span class="text-xs text-secondary/60 dark:text-accent/60">Güncel Bilgiler özeti var mı?</span>
+                </button>
+                <button class="text-left p-4 rounded-2xl border border-stroke-2 dark:border-white/10 hover:border-primary hover:bg-primary/5 transition-all duration-300 group">
+                  <span class="block font-bold text-secondary dark:text-accent group-hover:text-primary mb-1">11. Sınıf Fizik</span>
+                  <span class="text-xs text-secondary/60 dark:text-accent/60">Vektörler soru çözümü</span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
