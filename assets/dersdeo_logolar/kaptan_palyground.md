@@ -1,0 +1,3 @@
+"Yapay zeka uygulamalarını kullanarak iş başarısını artırmak." - Bu yazı yerine şunu yaz; "dersdeo </p> Sınav Düşünen Ai"
+How can i asisit you today? yazan mockup kısmını kaldır ama tam oraya o boyutlarda DersdeoAi chat penceresini ve altında örnek sorularıyla bir tasarım yap.
+onların altında kayan logoların yerine şunlar kayan yazı olarak konsun; YGS - LYS - KPSS - 9.sınıf - 10.sınıf - 11.sınıf - 12.sınıf Ders Anlatım Videoları 

@@ -2450,12 +2450,14 @@ Mobile Menu
           Sınav Düşünen Ai
         </h1>
         <p
-          class="max-w-[750px] mx-auto mb-7 md:mb-14"
+          class="max-w-[750px] mx-auto mb-7 md:mb-14 text-lg leading-relaxed"
           data-ns-animate
           data-instant
           data-delay="0.2"
         >
-          Dersdeo sınav motoru DEO, 10.000+ kaynak ile sorunu bekliyor!
+          Soru sor, fotoğraf yükle ya da konu seç.<br>
+          DERSDEO, sınav mantığına göre düşünür, çözer ve açıklar.<br>
+          Bildiği yerde konuşur, bilmediği yerde durur.
         </p>
         <div class="flex items-center justify-center">
           <div
@@ -2526,16 +2528,6 @@ Mobile Menu
         data-instant
         class="max-w-[620px] -mb-3 lg:max-w-[840px] xl:max-w-[1000px] 2xl:max-w-[1016px] min-[1800px]:!max-w-[1166px] mx-auto bg-white dark:bg-background-8 rounded-3xl p-6 md:p-10 shadow-2xl border border-stroke-1 dark:border-white/10 relative z-40 scroll-mt-32"
       >
-        <div class="flex items-center gap-3 mb-8">
-          <div class="size-12 rounded-full bg-primary flex items-center justify-center text-secondary font-bold text-xl">D</div>
-          <div>
-            <h4 class="text-secondary dark:text-accent font-semibold text-xl">DersdeoAi</h4>
-            <p class="text-secondary/60 dark:text-accent/60 text-sm flex items-center gap-1.5">
-              <span class="size-2 rounded-full bg-green-500"></span> Online • Sınav Asistanı
-            </p>
-          </div>
-        </div>
-        
         <div class="flex flex-col min-h-[500px]">
           <div class="space-y-6 mb-auto text-left">
             <div class="bg-background-12 dark:bg-background-7 p-6 rounded-2xl rounded-tl-none max-w-[85%] border border-stroke-1 dark:border-white/5 shadow-sm">
@@ -2544,14 +2536,35 @@ Mobile Menu
           </div>
           
           <div class="mt-8 space-y-10">
-            <div class="relative group">
-              <input type="text" placeholder="Dersdeo'ya sor..." class="w-full bg-background-12 dark:bg-background-7 border border-stroke-2 dark:border-white/10 rounded-2xl py-6 px-8 pr-20 focus:outline-none focus:ring-2 focus:ring-primary/40 transition-all text-secondary dark:text-accent text-xl shadow-inner italic">
-              <button class="absolute right-4 top-1/2 -translate-y-1/2 bg-primary hover:scale-105 transition-transform p-4 rounded-xl text-secondary shadow-lg">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-7">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+            <div class="relative group flex items-center gap-3 bg-background-12 dark:bg-background-7 border border-stroke-2 dark:border-white/10 rounded-2xl p-2 focus-within:ring-2 focus-within:ring-primary/40 transition-all shadow-inner">
+              <!-- file upload button -->
+              <button class="p-3 text-secondary/60 dark:text-accent/60 hover:text-primary transition-colors hover:bg-white/50 dark:hover:bg-white/5 rounded-xl flex items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M18.375 12.739l-7.693 7.693a4.5 4.5 0 01-6.364-6.364l10.94-10.94A3 3 0 1119.5 7.5l-10.74 10.74m-4.243-4.243a1.5 1.5 0 012.122 0l7.778 7.778m-7.778-7.778L12 9.375" />
                 </svg>
               </button>
+
+              <input type="text" placeholder="Bu soruyu neden böyle çözdüğünü anlat" class="flex-1 bg-transparent border-none py-4 px-2 focus:outline-none text-secondary dark:text-accent text-xl italic min-h-[60px]">
+              
+              <div class="flex items-center gap-1.5">
+                <!-- mic button -->
+                <button class="p-3 text-secondary/60 dark:text-accent/60 hover:text-primary transition-colors hover:bg-white/50 dark:hover:bg-white/5 rounded-xl">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 18.75a6 6 0 006-6v-1.5m-6 7.5a6 6 0 01-6-6v-1.5m6 7.5v3.75m-3.75 0h7.5M12 15.75a3 3 0 01-3-3V4.5a3 3 0 116 0v8.25a3 3 0 01-3 3z" />
+                  </svg>
+                </button>
+                
+                <!-- send button -->
+                <button class="bg-primary hover:scale-105 transition-transform p-3.5 rounded-xl text-secondary shadow-lg flex items-center justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+                  </svg>
+                </button>
+              </div>
             </div>
+            <p class="text-center text-sm text-secondary/40 dark:text-accent/40 font-medium">
+              YKS • TYT • AYT • KPSS müfredatına birebir uyumlu
+            </p>
 
             <div class="pt-6 border-t border-stroke-1 dark:border-white/5">
               <p class="text-secondary/50 dark:text-accent/50 text-xs font-medium uppercase tracking-widest mb-4">Örnek Sorular & Konular</p>
