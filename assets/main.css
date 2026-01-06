@@ -31736,3 +31736,27 @@ svg.leaflet-zoom-animated {
     opacity: .5;
   }
 }
+
+/* Marquee Animation */
+@keyframes horizontal-marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  display: flex !important;
+  width: max-content !important;
+  animation: horizontal-marquee 30s linear infinite !important;
+}
+
+.logos-marquee-container {
+  overflow: hidden !important;
+  width: 100% !important;
+}
+
+.animate-marquee figure img {
+  width: auto !important;
+  height: 48px !important;
+  min-width: 150px !important;
+  object-contain: contain !important;
+}
